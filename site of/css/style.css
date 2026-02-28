@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.body2 {
+    background-image: url(/imagens/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(/imagens/fundo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*PARTE D CIMA*/
+
+.imagem1-header{
+    width: 85px;
+    height: 85px;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c3c3c;
+    height: 60px;
+    border-radius: 10px;
+}
+
+header li{
+    margin: 0 15px;
+}
+
+.header-geral{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.itens-header{
+    background-color: white;
+    width: 385px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.itens-header li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.itens-header li a:hover{
+    color: #1b3195;
+}
+
+.imagem2-header{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/*BAIXO*/
+
+
+/* HOME */
+
+.logo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.logo h1{
+    font-size: 115px;
+    font-family: League Spartan;
+    font-weight: 800;
+    line-height: 4;
+}
+
+.estrela-logo{
+    width: 160px;
+    vertical-align: middle;
+    margin-left: -82px;
+    margin-top: 140px;
+    position: absolute;
+}
+
+.logo-buraco{
+    position: absolute;
+    margin-left: -258px;
+    margin-top: 182px;
+    width: 57px;
+}
+
+.slogan{
+     margin-top: 125px;
+     margin-left: 635px;
+    font-size: 22px;
+    position: absolute;
+    font-family: League Spartan;
+
+}
+
+
+/*sobre nos*/
+
+.vj {
+    background-color: rgba(0, 21, 117, 0.57);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.imagem-vj {
+    width: 150px;
+    height: 150px;
+}
+
+.texto-vj {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-vj h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.texto-vj p {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0;
+}
